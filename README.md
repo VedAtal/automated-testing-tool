@@ -12,8 +12,6 @@ Hardware Drivers
 Board Controllers
  * DIO - this board handles the 512 I/O pins from the 34x MCP expanders.
  * DMM - this board handles reading inputs through the 1x LTC ADC on it.
-    * Only board that was not individually tested and verified. Check note on dmm.cpp on line 34-35.
-    * This board (specifically the ADC) might need additional testing to get working, more info on note mentioned above + datasheet of the IC.
  * PSU - this baord handles distributing variable power through the 2x AD DAC.
 
 Application Layer
