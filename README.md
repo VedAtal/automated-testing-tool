@@ -2,7 +2,7 @@
 Ved Atal - 2024
 ****************************************************
 
-Software is divided into 3 layers.
+Software is divided into 3 layers.<br />
 Hardware Drivers
  * Control the underlying hardware of the RPi.
  * GPIO - deals with general purpose I/O.
@@ -21,7 +21,7 @@ Application Layer
  * ZIF - This maps all ZIF pins that are in the ITRs to their corresponding DIO pins.
 
 
-General Notes.
+General Notes.<br />
 WiringPi
  * It is included in the project directory and should work. If it doesn't work:
    * Necessary to go to WiringPi github and follow installation steps to install their library for the drivers to work.
